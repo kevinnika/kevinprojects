@@ -1,11 +1,6 @@
 from RTSim import RTSim
 
 class RTRobot(RTSim):
-    """
-    RTRobot Controller for RTSim real-time robot simulation.
-    https://github.com/FJFranklin/wifi-py-rpi-car-controller/tree/master/RTSim
-    """
-    
 
     def __init__(self, seconds):
         # usage: RTRobot (seconds)
